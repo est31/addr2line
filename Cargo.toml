@@ -22,7 +22,7 @@ intervaltree = { version = "0.2", default-features = false }
 smallvec = { version = "0.6", default-features = false }
 lazycell = "1.0"
 rustc-demangle = { version = "0.1", optional = true }
-cpp_demangle = { version = "0.2", default-features = false, optional = true }
+cpp_demangle = { git = "https://github.com/gimli-rs/cpp_demangle", rev = "6d5320d2f5c119923647b6d7d2a7d563717a4ddf", version = "0.2", default-features = false, optional = true }
 
 [dev-dependencies]
 memmap = "0.6"
